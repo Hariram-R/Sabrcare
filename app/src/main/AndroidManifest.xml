@@ -52,9 +52,7 @@
 
         <receiver android:name=".AlarmReceiver" />
 
-        <service
-            android:name="com.onecode.s3.service.S3UploadService"
-            android:exported="false" />
+        <service android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService" android:enabled="true"/>
 
         <activity android:name=".activities.ProfileActivity"></activity>
         <activity android:name=".activities.HExpertActivity"></activity>

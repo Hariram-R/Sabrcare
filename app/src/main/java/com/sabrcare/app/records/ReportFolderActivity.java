@@ -153,7 +153,7 @@ public class ReportFolderActivity extends AppCompatActivity {
     }
 
 
-    void loadFiles(){
+    void loadFiles()    {
         String baseUrl = getResources().getString(R.string.apiUrl);
         String filesURL = baseUrl+"records/show/files";
         //TODO Maintain auth token
